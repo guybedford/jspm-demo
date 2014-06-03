@@ -3,12 +3,10 @@ System.config({
     "*": "*.js",
     "npm:*": "jspm_packages/npm/*.js",
     "github:*": "jspm_packages/github/*.js"
-  }
-// uncomment to use bundled form:  
-/*,
+  },
   "bundles": {
-    "voxel-bundle": ["npm:voxel-demo@0.0.1"]
-  } */
+    "voxel-bundle": ["npm:voxel-demo@0.0.1//remove_to_enable_bundle"]
+  }
 });
 
 System.config({
@@ -260,14 +258,14 @@ System.config({
       "1.0.0"
     ],
     "npm:glsl-tokenizer": [
-      "0.0.8",
-      "0.0.2"
+      "0.0.2",
+      "0.0.8"
     ],
     "npm:ndarray-downsample2x": "0.1.1",
     "npm:through": [
+      "1.1.2",
       "2.2.7",
-      "2.3.4",
-      "1.1.2"
+      "2.3.4"
     ],
     "npm:falafel": "0.1.6",
     "npm:escodegen": "0.0.17",
