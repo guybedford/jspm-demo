@@ -5,7 +5,9 @@ System.config({
     "github:*": "jspm_packages/github/*.js"
   },
   "bundles": {
-    "voxel-bundle": ["npm:voxel-demo@0.0.1//remove_to_enable_bundle"]
+    "voxel-bundle": [
+      "npm:voxel-demo@0.0.1//remove_to_enable_bundle"
+    ]
   }
 });
 
