@@ -8,7 +8,8 @@ Setup:
   git clone git@github.com:guybedford/jspm-demo
   cd jspm-demo
   jspm install
-  open http://localhost:8000 && python -m SimpleHTTPServer
+  python -m SimpleHTTPServer
+  open http://localhost:8000
 ```
 
 To use the bundled version, remove the comments in `config.js` and `index.html`.
