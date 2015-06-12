@@ -20,11 +20,10 @@ The ES6 markdown component is installed from https://github.com/guybedford/markd
 
 Reproduce this demo from scratch:
 
-Assuming _app.js_ and _index.html_ exist already.
+Assuming _app.js_, _index.html_ and a _package.json_ exist already.
 
 ```
-npm init                # generate a package.json, optional for jspm but good practise
-jspm init               # default to all, except no prefix in package.json
+jspm init               # default to all, just hit ENTER
 jspm install css        # use jspm css loader plugin
 jspm install bootstrap  # install bootstrap via jspm registry map
 jspm install github:guybedford/markdown-component
