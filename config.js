@@ -1,4 +1,5 @@
 System.config({
+  "baseURL": "/",
   "transpiler": "babel",
   "babelOptions": {
     "optional": [
@@ -106,7 +107,7 @@ System.config({
     },
     "npm:buffer@3.2.2": {
       "base64-js": "npm:base64-js@0.0.8",
-      "ieee754": "npm:ieee754@1.1.5",
+      "ieee754": "npm:ieee754@1.1.6",
       "is-array": "npm:is-array@1.0.1"
     },
     "npm:clean-css@3.1.9": {

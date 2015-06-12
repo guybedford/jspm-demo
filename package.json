@@ -1,15 +1,24 @@
 {
-  "registry": "jspm",
-  "main": "npm:voxel-demo",
   "dependencies": {
-    "bootstrap": "github:twbs/bootstrap@^3.3.4",
-    "css": "github:systemjs/plugin-css@^0.1.12",
-    "guybedford/markdown-component": "github:guybedford/markdown-component@^0.1.0",
-    "voxel-demo": "npm:voxel-demo@^0.0.1"
+    "css": "github:systemjs/plugin-css@^0.1.12"
   },
   "devDependencies": {
     "babel": "npm:babel-core@^5.1.13",
     "babel-runtime": "npm:babel-runtime@^5.1.13",
     "core-js": "npm:core-js@^0.9.4"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "bootstrap": "github:twbs/bootstrap@^3.3.4",
+      "css": "github:systemjs/plugin-css@^0.1.12",
+      "guybedford/markdown-component": "github:guybedford/markdown-component@^0.1.0",
+      "voxel-demo": "npm:voxel-demo@^0.0.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
   }
 }
