@@ -1,2 +1,2 @@
-require('github:guybedford/markdown-component');
-require('bootstrap');
+require('guybedford/markdown-component');
+require("bootstrap/css/bootstrap.css!");
