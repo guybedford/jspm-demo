@@ -32,5 +32,5 @@ jspm install npm:voxel-demo
 
 ```
 jspm bundle app app-bundle.js
-jspm bundle voxel-demo app-bundle.js
+jspm bundle voxel-demo voxel-bundle.js
 ```
